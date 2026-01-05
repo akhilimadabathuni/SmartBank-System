@@ -20,16 +20,17 @@ This project demonstrates core backend development skills including **Object-Ori
 <img width="492" height="113" alt="image" src="https://github.com/user-attachments/assets/23e4042e-dc7f-4e00-ae49-9ab5e8ae2af2" />
 
 
-##▶️ How to Run
+## ▶️ How to Run
+
 Since this project uses an external JDBC library, you must include the lib folder in the classpath.
 
-Compile:
+## Compile:
 
-Bash
-
+**Bash**
 javac -cp ".;lib/*" SmartBankSystem.java
-Run:
 
-Bash
 
+## Run:
+
+**Bash**
 java -cp ".;lib/*" SmartBankSystem
