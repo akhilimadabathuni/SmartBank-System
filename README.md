@@ -20,9 +20,16 @@ This project demonstrates core backend development skills including **Object-Ori
 <img width="492" height="113" alt="image" src="https://github.com/user-attachments/assets/23e4042e-dc7f-4e00-ae49-9ab5e8ae2af2" />
 
 
-## ⚙️ Setup & Installation
+##▶️ How to Run
+Since this project uses an external JDBC library, you must include the lib folder in the classpath.
 
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/YourUsername/SmartBank-System.git](https://github.com/YourUsername/SmartBank-System.git)
-cd SmartBank-System
+Compile:
+
+Bash
+
+javac -cp ".;lib/*" SmartBankSystem.java
+Run:
+
+Bash
+
+java -cp ".;lib/*" SmartBankSystem
