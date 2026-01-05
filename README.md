@@ -26,11 +26,11 @@ Since this project uses an external JDBC library, you must include the lib folde
 
 ## Compile:
 
-**Bash**
+**Bash**:
 javac -cp ".;lib/*" SmartBankSystem.java
 
 
 ## Run:
 
-**Bash**
+**Bash**:
 java -cp ".;lib/*" SmartBankSystem
